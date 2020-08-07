@@ -10,7 +10,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+[![Apache License][license-shield]][https://github.com/YuneSung/Aeiris-Remastered/blob/master/LICENSE.md]
 
 # Aeris v1.25
 
