@@ -13,33 +13,15 @@ of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
-furnished to do so. Private licence to Apache (https://github.com/YuneSung/Ieris-Remastered/blob/master/LICENSE.md)
+furnished to do so.
 
 # Build Versions and Notes:
 **Current build: 1.25**
-
-### Build version 1.05:
-  - Edition of smart buttons
-  - Added new bar to the toolbar
-  - Fixed loading times
-  
-### Build version 1.10:
-  - Fixed multiple bugs
-  - Reduced loading times
-  - Resized base forms
-  
-### Build version 1.15:
-  - New loading image
-  - New fonts
-  
-### Build version 1.20:
-  - New logo
-  - Addition to 'UTF16 string' boxes
-  - Fixed textbox lengh bugs
-  
-### Build version 1.25: 
+### Build version update notes: 
   - New loading image
   - Fixed a lot of bugs
+
+View past notes: https://pastebin.com/RSiWsHx4
 
 ### Support:
 - Windows 7,8,10 tested on OS19041.423
