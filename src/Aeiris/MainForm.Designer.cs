@@ -127,6 +127,7 @@ namespace Aeiris
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.label15 = new System.Windows.Forms.Label();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
@@ -135,9 +136,9 @@ namespace Aeiris
             this.radioButton5 = new System.Windows.Forms.RadioButton();
             this.button1 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.radioButton6 = new System.Windows.Forms.RadioButton();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label17 = new System.Windows.Forms.Label();
             this.tabPage1.SuspendLayout();
             this.Interpretation.SuspendLayout();
             this.StringsPage.SuspendLayout();
@@ -145,6 +146,7 @@ namespace Aeiris
             ((System.ComponentModel.ISupportInitialize)(this.strMinimumBox)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
+            this.tabPage3.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
@@ -858,7 +860,7 @@ namespace Aeiris
             // EditPage
             // 
             this.EditPage.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EditPage.ForeColor = System.Drawing.Color.Purple;
+            this.EditPage.ForeColor = System.Drawing.Color.Violet;
             this.EditPage.Location = new System.Drawing.Point(4, 29);
             this.EditPage.Name = "EditPage";
             this.EditPage.Padding = new System.Windows.Forms.Padding(3);
@@ -869,7 +871,6 @@ namespace Aeiris
             // 
             // tabControl1
             // 
-            this.tabControl1.Appearance = System.Windows.Forms.TabAppearance.FlatButtons;
             this.tabControl1.Controls.Add(this.EditPage);
             this.tabControl1.Controls.Add(this.StringsPage);
             this.tabControl1.Controls.Add(this.Interpretation);
@@ -907,9 +908,22 @@ namespace Aeiris
             this.label15.TabIndex = 0;
             this.label15.Text = "Unreal Manager Not Found!";
             // 
+            // tabPage3
+            // 
+            this.tabPage3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tabPage3.Controls.Add(this.label17);
+            this.tabPage3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.tabPage3.Location = new System.Drawing.Point(4, 29);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3, 3, 100, 3);
+            this.tabPage3.Size = new System.Drawing.Size(703, 523);
+            this.tabPage3.TabIndex = 5;
+            this.tabPage3.Text = "Options++";
+            // 
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
+            this.radioButton1.ForeColor = System.Drawing.Color.Black;
             this.radioButton1.Location = new System.Drawing.Point(4, 26);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(77, 19);
@@ -920,6 +934,7 @@ namespace Aeiris
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
+            this.radioButton2.ForeColor = System.Drawing.Color.Black;
             this.radioButton2.Location = new System.Drawing.Point(4, 51);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(46, 19);
@@ -930,6 +945,7 @@ namespace Aeiris
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
+            this.radioButton3.ForeColor = System.Drawing.Color.Black;
             this.radioButton3.Location = new System.Drawing.Point(4, 76);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(120, 19);
@@ -946,6 +962,7 @@ namespace Aeiris
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(60, 19);
             this.radioButton4.TabIndex = 5;
+            this.radioButton4.TabStop = true;
             this.radioButton4.Text = "Default";
             this.radioButton4.UseVisualStyleBackColor = true;
             this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
@@ -953,6 +970,7 @@ namespace Aeiris
             // hex
             // 
             this.hex.AutoSize = true;
+            this.hex.ForeColor = System.Drawing.Color.Black;
             this.hex.Location = new System.Drawing.Point(4, 30);
             this.hex.Name = "hex";
             this.hex.Size = new System.Drawing.Size(89, 19);
@@ -964,6 +982,7 @@ namespace Aeiris
             // 
             this.radioButton5.AutoSize = true;
             this.radioButton5.Checked = true;
+            this.radioButton5.ForeColor = System.Drawing.Color.Black;
             this.radioButton5.Location = new System.Drawing.Point(3, 8);
             this.radioButton5.Name = "radioButton5";
             this.radioButton5.Size = new System.Drawing.Size(93, 19);
@@ -985,7 +1004,7 @@ namespace Aeiris
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.BackColor = System.Drawing.SystemColors.Control;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.radioButton6);
             this.panel2.Controls.Add(this.panel3);
@@ -994,10 +1013,21 @@ namespace Aeiris
             this.panel2.Controls.Add(this.radioButton2);
             this.panel2.Controls.Add(this.radioButton3);
             this.panel2.Controls.Add(this.radioButton4);
-            this.panel2.Location = new System.Drawing.Point(724, 424);
+            this.panel2.Location = new System.Drawing.Point(724, 428);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(296, 132);
             this.panel2.TabIndex = 10;
+            // 
+            // radioButton6
+            // 
+            this.radioButton6.AutoSize = true;
+            this.radioButton6.ForeColor = System.Drawing.Color.Black;
+            this.radioButton6.Location = new System.Drawing.Point(232, 3);
+            this.radioButton6.Name = "radioButton6";
+            this.radioButton6.Size = new System.Drawing.Size(55, 19);
+            this.radioButton6.TabIndex = 9;
+            this.radioButton6.Text = "Lua/J";
+            this.radioButton6.UseVisualStyleBackColor = true;
             // 
             // panel3
             // 
@@ -1008,32 +1038,20 @@ namespace Aeiris
             this.panel3.Size = new System.Drawing.Size(102, 56);
             this.panel3.TabIndex = 10;
             // 
-            // radioButton6
+            // label17
             // 
-            this.radioButton6.AutoSize = true;
-            this.radioButton6.Location = new System.Drawing.Point(232, 3);
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(55, 19);
-            this.radioButton6.TabIndex = 9;
-            this.radioButton6.Text = "Lua/J";
-            this.radioButton6.UseVisualStyleBackColor = true;
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tabPage3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.tabPage3.Location = new System.Drawing.Point(4, 29);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(703, 523);
-            this.tabPage3.TabIndex = 5;
-            this.tabPage3.Text = "Options++";
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(2, 3);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(137, 16);
+            this.label17.TabIndex = 0;
+            this.label17.Text = "Options++ Not Found!";
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1032, 566);
+            this.ClientSize = new System.Drawing.Size(1032, 573);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.dragDropLbl);
             this.Controls.Add(this.tabControl1);
@@ -1046,7 +1064,7 @@ namespace Aeiris
             this.MinimumSize = new System.Drawing.Size(639, 416);
             this.Name = "MainForm";
             this.Opacity = 0.99D;
-            this.Text = "Aeiris v1.5";
+            this.Text = "Aeiris: Remastered";
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
@@ -1060,6 +1078,8 @@ namespace Aeiris
             this.tabControl1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
@@ -1160,6 +1180,7 @@ namespace Aeiris
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.RadioButton radioButton6;
         private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.Label label17;
     }
 }
 
