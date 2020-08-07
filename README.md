@@ -26,9 +26,6 @@
 
 # Aeris v1.25
 
-### 2020.2 Launch Banner, credits to Bebi Chic.
-![Laumch Banner](https://github.com/YuneSung/Aeiris-Remastered/blob/master/pic/re_launch_banner.png?raw=true)
-
 ### Reproduction Information
 > Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -36,6 +33,9 @@ in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so.
+
+### 2020.2 Launch Banner, credits to Bebi Chic.
+![Laumch Banner](https://github.com/YuneSung/Aeiris-Remastered/blob/master/pic/re_launch_banner.png?raw=true)
 
 # Build Versions and Notes:
 **Current build: 1.25**
