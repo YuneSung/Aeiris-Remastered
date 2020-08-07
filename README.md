@@ -1,5 +1,5 @@
 ![Ieris](https://github.com/FR0E6HNIZCLL02SUMFWY/Ieris-Remastered/blob/master/icon/toptext.png?raw=true)\
-![[Dependency Status](https://david-dm.org/atom/atom.svg)](https://david-dm.org/atom/atom)
+[![Dependency Status](https://david-dm.org/atom/atom.svg)](https://david-dm.org/atom/atom)
 ![[Lanauges](https://img.shields.io/github/languages/count/YuneSung/Ieris-Remastered)
 [![Ieris](https://img.shields.io/bundlephobia/min/Ieris-Remasteredd)]
 > **EN**: Ieris is an open-source powerful executable editor. It allows for editing of files in hex mode, binary and contains converters etc.\
