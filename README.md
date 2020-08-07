@@ -1,4 +1,4 @@
-![Aeiris](https://github.com/YuneSung/Ieris-Remastered/blob/master/pic/coloured_banner_left.png?raw=true)\
+![Aeiris](https://github.com/YuneSung/Ieris-Remastered/blob/master/pic/farleft_banner.png?raw=true)\
 
 ![Languages](https://img.shields.io/github/languages/count/YuneSung/Ieris-Remastered)
 ![Releases](https://img.shields.io/github/downloads/YuneSung/Ieris-Remastered/total)
