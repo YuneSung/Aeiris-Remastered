@@ -1,6 +1,6 @@
 # Aeiris
 
-> **EN**: Aeiris is a powerful hex editor. It is a professional, free and light program designed for ease of life.\
+**EN**: Aeiris is a powerful hex editor. It is a professional, free and light program designed for ease of life.\
 **ES**: Aeiris es un poderoso editor hexadecimal. Es un programa profesional, gratuito y ligero diseñado para facilitar la vida.\
 **RU**: Aeiris - мощный шестнадцатеричный редактор. Это профессиональная, бесплатная и легкая программа, созданная для облегчения жизни.
 
