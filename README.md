@@ -43,6 +43,7 @@ furnished to do so.
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 This is a simple program developed by me to bring you the best experience possible for editing executables.
+From build v1.50, we provide UnrealDev and UnityDevH support.
 
 ## Getting Started
 Download the source and build it using Visual Studio (or equivilant) or run the prebuild **dev** version in the /src/ folder.
