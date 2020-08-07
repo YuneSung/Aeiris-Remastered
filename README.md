@@ -6,3 +6,6 @@
 
 # Ieris v1.25
 ![Ieris](https://github.com/FR0E6HNIZCLL02SUMFWY/Ieris-Remastered/blob/master/icon/intro_rem.png?raw=true)
+
+## Building:
+`https://github.com/YuneSung/Ieris-Remastered.git`
