@@ -22,7 +22,7 @@
 **ES**: Aeiris es un poderoso editor hexadecimal. Es un programa profesional, gratuito y ligero diseñado para facilitar la vida.\
 **RU**: Aeiris - мощный шестнадцатеричный редактор. Это профессиональная, бесплатная и легкая программа.
 
-# Aeiris v1.50
+# Aeiris v1.63-5
 
 ### Reproduction Information
 > Permission is hereby granted, free of charge, to any person obtaining a copy
