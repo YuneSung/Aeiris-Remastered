@@ -25,6 +25,9 @@
 ## About The Project
 This is a simple program developed by me to bring you the best experience possible for editing executables.
 
+## Getting Started
+Download the source and build it using Visual Studio (or equivilant) or run the prebuild **dev** version in the /src/ folder.
+
 ### Reproduction Information
 > Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
