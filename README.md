@@ -23,7 +23,7 @@
 **RU**: Aeiris - мощный шестнадцатеричный редактор. Это профессиональная, бесплатная и легкая программа.
 
 # Aeiris v1.63-5
-<h1>From build v1.50, we provide UnrealDev and UnityDevH support.</h1>
+From build v1.50, we provide UnrealDev and UnityDevH support.
 
 ### Reproduction Information
 > Permission is hereby granted, free of charge, to any person obtaining a copy
