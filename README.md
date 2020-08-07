@@ -1,11 +1,3 @@
-# Aeiris-Remastered
-
-**EN**: Aeiris is a powerful hex editor. It is a professional, free and light program designed for ease of life.\
-**ES**: Aeiris es un poderoso editor hexadecimal. Es un programa profesional, gratuito y ligero diseñado para facilitar la vida.\
-**RU**: Aeiris - мощный шестнадцатеричный редактор. Это профессиональная, бесплатная и легкая программа.
-
-![Aeiris](https://github.com/YuneSung/Ieris-Remastered/blob/master/pic/desk_banner_fw.png?raw=true)
-
 <br />
 <p align="center">
   <a href="https://github.com/YuneSung/Aeiris-Remastered/blob/master/">
@@ -27,6 +19,12 @@
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
   </p>
 </p>
+
+**EN**: Aeiris is a powerful hex editor. It is a professional, free and light program designed for ease of life.\
+**ES**: Aeiris es un poderoso editor hexadecimal. Es un programa profesional, gratuito y ligero diseñado para facilitar la vida.\
+**RU**: Aeiris - мощный шестнадцатеричный редактор. Это профессиональная, бесплатная и легкая программа.
+
+![Aeiris](https://github.com/YuneSung/Ieris-Remastered/blob/master/pic/desk_banner_fw.png?raw=true)
 
 # Aeris v1.25
 
