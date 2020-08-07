@@ -7,5 +7,8 @@
 # Ieris v1.25
 ![Ieris](https://github.com/FR0E6HNIZCLL02SUMFWY/Ieris-Remastered/blob/master/icon/intro_rem.png?raw=true)
 
+### Support:
+- Windows 7,8,10 tested on OS19041.423
+
 ### Building:
 `https://github.com/YuneSung/Ieris-Remastered.git`
