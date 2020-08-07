@@ -7,7 +7,7 @@
 **RU**: Ieris - мощный исполняемый редактор с открытым исходным кодом. Он позволяет редактировать файлы в шестнадцатеричном, двоичном формате и содержит конвертеры и т. Д.
 
 # Ieris v1.25
-![Ieris](https://github.com/FR0E6HNIZCLL02SUMFWY/Ieris-Remastered/blob/master/icon/intro_rem.png?raw=true)
+![Aeiris]https://github.com/YuneSung/Ieris-Remastered/blob/master/pic/launch_banner.png?raw=true)
 
 ### Reproduction Information
 > Permission is hereby granted, free of charge, to any person obtaining a copy
