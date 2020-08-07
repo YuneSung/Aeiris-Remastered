@@ -6,8 +6,6 @@
   <p align="left">
     The ultimate lightweight and fast executable editor
     <br />
-    <br />
-    <br />
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
     ·
     <a href="https://github.com/YuneSung/Aeiris-Remastered/issues">Report Bug</a>
