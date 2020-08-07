@@ -7,6 +7,13 @@
 # Ieris v1.25
 ![Ieris](https://github.com/FR0E6HNIZCLL02SUMFWY/Ieris-Remastered/blob/master/icon/intro_rem.png?raw=true)
 
+### Build Versions:
+Build version 1.05:
+  - Creation
+  
+Build version 1.10:
+
+
 ### Reproduction Information
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
