@@ -1,5 +1,5 @@
 ![contributors-shield](https://img.shields.io/github/issues/YuneSung/Aeiris-Remastered.svg?style=flat-square)
-![contributors-shield](https://img.shields.io/github/license/YuneSung/Aeiris-Remastered.svg.svg?style=flat-square)
+![contributors-shield](https://img.shields.io/github/license/YuneSung/Aeiris-Remastered.svg?style=flat-square)
 
 <br />
 <p align="left">
