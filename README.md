@@ -33,7 +33,6 @@ copies of the Software, and to permit persons to whom the Software is
 furnished to do so.
 
 # Build Versions and Notes:
-**Current build: 1.25**
 ### Build version update notes: 
   - Fixed a lot of bugs
   - Added Lua,Unity and Unreal support
