@@ -1,6 +1,6 @@
 **Warning**: As of now, a prebuilt x64 program will be built in '/src/' named 'Aeiris-64x'
 
-![Ieris](https://github.com/FR0E6HNIZCLL02SUMFWY/Ieris-Remastered/blob/master/icon/toptext.png?raw=true)\
+![Aeiris](https://github.com/YuneSung/Ieris-Remastered/blob/master/pic/coloured_banner.png?raw=true)\
 ![Languages](https://img.shields.io/github/languages/count/YuneSung/Ieris-Remastered)
 ![Releases](https://img.shields.io/github/downloads/YuneSung/Ieris-Remastered/total)
 > **EN**: Ieris is an open-source powerful executable editor. It allows for editing of files in hex mode, binary and contains converters etc.\
