@@ -29,6 +29,12 @@ namespace Aeiris
     public partial class MainForm : Form
     {
         private Be.Windows.Forms.HexBox hexBox1;
+        private bool _default = true;
+        private bool _unity = false;
+        private bool _unreal = false;
+        private bool _FCL = false;
+        private bool _cpp = true;
+        private bool _cs = false;
 
         private void hexBoxInit()
         {
@@ -62,6 +68,7 @@ namespace Aeiris
 
         public MainForm(String file)
         {
+
             InitializeComponent();
             hexBoxInit();
             Open(file);
@@ -80,6 +87,8 @@ namespace Aeiris
             convertFm = new ConverterForm();
             hexBox1.InsertActive = menuInsert.Checked;
             hexBox1.Select();
+
+            
         }
 
         private DynamicFileByteProvider provider = null;
@@ -451,6 +460,74 @@ MA 02110-1301, USA. Remastered and edited by ");
         private void stringsList_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            stringsIndexes = new List<long>();
+
+            bool[] printables = null;
+            if (AsciiBox.Checked)
+                printables = printables_ASCII;
+            else if (extAsciiBox.Checked)
+                printables = printables_extASCII;
+            else if (alphanumAsciiBox.Checked)
+                printables = printables_alnumASCII;
+
+            long min = (long)strMinimumBox.Value;
+
+            long strIndex = -1;
+            String str = "";
+            for (long i = 0; i < provider.Length; ++i)
+            {
+                byte b = provider.ReadByte(i);
+                if ((b == 0 || b == '\n' || b == '\r') && strIndex != -1)
+                {
+                    if (i - strIndex >= min)
+                    {
+                        str = "";
+                        for (long k = strIndex; k < i; ++k)
+                            str += (char)provider.ReadByte(k);
+                        stringsList.Items.Add(str);
+                        stringsIndexes.Add(strIndex);
+                    }
+                    strIndex = -1;
+                }
+                else if (printables[b])
+                {
+                    if (strIndex == -1)
+                    {
+                        strIndex = i;
+                    }
+                }
+                else if (strIndex != -1)
+                {
+                    strIndex = -1;
+                }
+
+            }
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+        }
+
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_2(object sender, EventArgs e)
+        {
+            if(radioButton1.Checked == true) { _unreal = true; }
+            else if (radioButton2.Checked == true) { _FCL = true; }
+            else if (radioButton3.Checked == true) { _unity = true; }
+            else if (radioButton4.Checked == true) { _default = true; }
+
+            if (radioButton5.Checked == true) { _cpp = true; }
+            else if (hex.Checked == true) { _cs = true; }
+
+            MessageBox.Show("Saved!");
         }
     }
 }
