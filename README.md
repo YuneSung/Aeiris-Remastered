@@ -1,4 +1,4 @@
-![Aeiris](https://github.com/YuneSung/Ieris-Remastered/blob/master/pic/farleft_banner.png?raw=true)\
+![Aeiris](https://github.com/YuneSung/Ieris-Remastered/blob/master/pic/desk_banner.png?raw=true)
 
 ![Languages](https://img.shields.io/github/languages/count/YuneSung/Ieris-Remastered)
 ![Releases](https://img.shields.io/github/downloads/YuneSung/Ieris-Remastered/total)
@@ -7,7 +7,6 @@
 **RU**: Ieris - мощный исполняемый редактор с открытым исходным кодом. Он позволяет редактировать файлы в шестнадцатеричном, двоичном формате и содержит конвертеры и т. Д.
 
 # Ieris v1.25
-![Aeiris](https://github.com/YuneSung/Ieris-Remastered/blob/master/pic/desk_banner.png?raw=true)
 
 ### Reproduction Information
 > Permission is hereby granted, free of charge, to any person obtaining a copy
