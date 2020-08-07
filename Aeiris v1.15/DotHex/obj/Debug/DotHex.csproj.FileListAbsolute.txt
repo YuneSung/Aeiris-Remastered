@@ -1,0 +1,14 @@
+C:\Users\jbieg\Desktop\Aeiris v1.15\DotHex\bin\Debug\DotHex.exe.config
+C:\Users\jbieg\Desktop\Aeiris v1.15\DotHex\bin\Debug\DotHex.exe
+C:\Users\jbieg\Desktop\Aeiris v1.15\DotHex\bin\Debug\DotHex.pdb
+C:\Users\jbieg\Desktop\Aeiris v1.15\DotHex\obj\Debug\DotHex.csprojAssemblyReference.cache
+C:\Users\jbieg\Desktop\Aeiris v1.15\DotHex\obj\Debug\DotHex.ConverterForm.resources
+C:\Users\jbieg\Desktop\Aeiris v1.15\DotHex\obj\Debug\DotHex.FindForm.resources
+C:\Users\jbieg\Desktop\Aeiris v1.15\DotHex\obj\Debug\DotHex.GotoForm.resources
+C:\Users\jbieg\Desktop\Aeiris v1.15\DotHex\obj\Debug\DotHex.MainForm.resources
+C:\Users\jbieg\Desktop\Aeiris v1.15\DotHex\obj\Debug\DotHex.Properties.Resources.resources
+C:\Users\jbieg\Desktop\Aeiris v1.15\DotHex\obj\Debug\DotHex.ReplaceForm.resources
+C:\Users\jbieg\Desktop\Aeiris v1.15\DotHex\obj\Debug\DotHex.csproj.GenerateResource.cache
+C:\Users\jbieg\Desktop\Aeiris v1.15\DotHex\obj\Debug\DotHex.csproj.CoreCompileInputs.cache
+C:\Users\jbieg\Desktop\Aeiris v1.15\DotHex\obj\Debug\DotHex.exe
+C:\Users\jbieg\Desktop\Aeiris v1.15\DotHex\obj\Debug\DotHex.pdb
