@@ -42,18 +42,18 @@ C:\Users\jbieg\Desktop\asd\Aeiris-Remastered-1.15\Aeiris v1.15\Aeiris\obj\Debug\
 C:\Users\jbieg\Desktop\asd\Aeiris-Remastered-1.15\Aeiris v1.15\Aeiris\obj\Debug\Aeiris.csproj.CoreCompileInputs.cache
 C:\Users\jbieg\Desktop\asd\Aeiris-Remastered-1.15\Aeiris v1.15\Aeiris\obj\Debug\Aeiris.exe
 C:\Users\jbieg\Desktop\asd\Aeiris-Remastered-1.15\Aeiris v1.15\Aeiris\obj\Debug\Aeiris.pdb
-C:\Users\jbieg\Documents\GitHub\Aeiris-Remastered\src\Aeiris\bin\Debug\Aeiris.exe.config
-C:\Users\jbieg\Documents\GitHub\Aeiris-Remastered\src\Aeiris\bin\Debug\Aeiris.exe
-C:\Users\jbieg\Documents\GitHub\Aeiris-Remastered\src\Aeiris\bin\Debug\Aeiris.pdb
 C:\Users\jbieg\Documents\GitHub\Aeiris-Remastered\src\Aeiris\obj\Debug\Aeiris.csprojAssemblyReference.cache
 C:\Users\jbieg\Documents\GitHub\Aeiris-Remastered\src\Aeiris\obj\Debug\Aeiris.ConverterForm.resources
 C:\Users\jbieg\Documents\GitHub\Aeiris-Remastered\src\Aeiris\obj\Debug\Aeiris.FindForm.resources
 C:\Users\jbieg\Documents\GitHub\Aeiris-Remastered\src\Aeiris\obj\Debug\Aeiris.GotoForm.resources
 C:\Users\jbieg\Documents\GitHub\Aeiris-Remastered\src\Aeiris\obj\Debug\DotHex.Launch.resources
 C:\Users\jbieg\Documents\GitHub\Aeiris-Remastered\src\Aeiris\obj\Debug\Aeiris.MainForm.resources
-C:\Users\jbieg\Documents\GitHub\Aeiris-Remastered\src\Aeiris\obj\Debug\Aeiris.Properties.Resources.resources
 C:\Users\jbieg\Documents\GitHub\Aeiris-Remastered\src\Aeiris\obj\Debug\Aeiris.ReplaceForm.resources
 C:\Users\jbieg\Documents\GitHub\Aeiris-Remastered\src\Aeiris\obj\Debug\Aeiris.csproj.GenerateResource.cache
 C:\Users\jbieg\Documents\GitHub\Aeiris-Remastered\src\Aeiris\obj\Debug\Aeiris.csproj.CoreCompileInputs.cache
-C:\Users\jbieg\Documents\GitHub\Aeiris-Remastered\src\Aeiris\obj\Debug\Aeiris.exe
-C:\Users\jbieg\Documents\GitHub\Aeiris-Remastered\src\Aeiris\obj\Debug\Aeiris.pdb
+C:\Users\jbieg\Documents\GitHub\Aeiris-Remastered\src\Aeiris\obj\Debug\Aeiris.dev.Properties.Resources.resources
+C:\Users\jbieg\Documents\GitHub\Aeiris-Remastered\src\Aeiris\bin\Debug\Aeiris.dev.exe.config
+C:\Users\jbieg\Documents\GitHub\Aeiris-Remastered\src\Aeiris\bin\Debug\Aeiris.dev.exe
+C:\Users\jbieg\Documents\GitHub\Aeiris-Remastered\src\Aeiris\bin\Debug\Aeiris.dev.pdb
+C:\Users\jbieg\Documents\GitHub\Aeiris-Remastered\src\Aeiris\obj\Debug\Aeiris.dev.exe
+C:\Users\jbieg\Documents\GitHub\Aeiris-Remastered\src\Aeiris\obj\Debug\Aeiris.dev.pdb
