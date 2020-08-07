@@ -1,4 +1,4 @@
-![contributors-shield](https://img.shields.io/github/issues/YuneSung/Aeiris-Remasteredsvg?style=flat-square)
+![contributors-shield](https://img.shields.io/github/issues/YuneSung/Aeiris-Remastered.svg?style=flat-square)
 <br />
 <p align="left">
 
