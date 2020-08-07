@@ -7,12 +7,31 @@
 # Ieris v1.25
 ![Ieris](https://github.com/FR0E6HNIZCLL02SUMFWY/Ieris-Remastered/blob/master/icon/intro_rem.png?raw=true)
 
-### Build Versions:
+### Build Versions and Notes:
+Current build: 1.25
+
 Build version 1.05:
-  - Creation
+  - Edition of smart buttons
+  - Added new bar to the toolbar
+  - Fixed loading times
   
 Build version 1.10:
-
+  - Fixed multiple bugs
+  - Reduced loading times
+  - Resized base forms
+  
+Build version 1.15:
+  - New loading image
+  - New fonts
+  
+Build version 1.20:
+  - New logo
+  - Addition to 'UTF16 string' boxes
+  - Fixed textbox lengh bugs
+  
+Build version 1.25: 
+  - New loading image
+  - Fixed a lot of bugs
 
 ### Reproduction Information
 Permission is hereby granted, free of charge, to any person obtaining a copy
