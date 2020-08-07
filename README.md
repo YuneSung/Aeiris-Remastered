@@ -7,8 +7,8 @@
 # Ieris v1.25
 ![Ieris](https://github.com/FR0E6HNIZCLL02SUMFWY/Ieris-Remastered/blob/master/icon/intro_rem.png?raw=true)
 
-## Build Versions and Notes:
-Current build: 1.25
+# Build Versions and Notes:
+**Current build: 1.25**
 
 ### Build version 1.05:
   - Edition of smart buttons
