@@ -1,7 +1,7 @@
 <br />
 <p align="left">
   <a href="https://github.com/YuneSung/Aeiris-Remastered/blob/master/">
-    <img src="pic/normal_banner.png?raw=true" alt="Logo" width="80" height="80">
+    <img src="pic/normal_banner.png?raw=true" alt="Logo" width="800" height="100">
   </a>
 
   <h3 align="left">Aeiris Remastered</h3>
