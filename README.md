@@ -22,7 +22,8 @@
 **ES**: Aeiris es un poderoso editor hexadecimal. Es un programa profesional, gratuito y ligero diseñado para facilitar la vida.\
 **RU**: Aeiris - мощный шестнадцатеричный редактор. Это профессиональная, бесплатная и легкая программа.
 
-# Aeiris v1.50
+# Aeiris v1.63-5
+From build v1.50, we provide UnrealDev and UnityDevH support.
 
 ### Reproduction Information
 > Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -33,7 +34,6 @@ copies of the Software, and to permit persons to whom the Software is
 furnished to do so.
 
 # Build Versions and Notes:
-**Current build: 1.25**
 ### Build version update notes: 
   - Fixed a lot of bugs
   - Added Lua,Unity and Unreal support
@@ -43,7 +43,6 @@ furnished to do so.
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 This is a simple program developed by me to bring you the best experience possible for editing executables.
-From build v1.50, we provide UnrealDev and UnityDevH support.
 
 ## Getting Started
 Download the source and build it using Visual Studio (or equivilant) or run the prebuild **dev** version in the /src/ folder.
@@ -55,5 +54,3 @@ View past notes: https://pastebin.com/RSiWsHx4
 
 ### Building:
 `https://github.com/YuneSung/Ieris-Remastered.git`
-
-**HexEdUnity Support
