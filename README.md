@@ -54,5 +54,3 @@ View past notes: https://pastebin.com/RSiWsHx4
 
 ### Building:
 `https://github.com/YuneSung/Ieris-Remastered.git`
-
-**HexEdUnity Support
