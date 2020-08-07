@@ -1,3 +1,5 @@
+**Warning**: As of now, a prebuilt x64 program will be pre-built in '/src/' named 'Iesiris-64x'
+
 ![Ieris](https://github.com/FR0E6HNIZCLL02SUMFWY/Ieris-Remastered/blob/master/icon/toptext.png?raw=true)\
 ![Languages](https://img.shields.io/github/languages/count/YuneSung/Ieris-Remastered)
 ![Releases](https://img.shields.io/github/downloads/YuneSung/Ieris-Remastered/total)
