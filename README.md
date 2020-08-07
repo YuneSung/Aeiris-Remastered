@@ -6,8 +6,11 @@
 
 ![Aeiris](https://github.com/YuneSung/Ieris-Remastered/blob/master/pic/desk_banner_fw.png?raw=true)
 
-![Languages](https://img.shields.io/github/languages/count/YuneSung/Ieris-Remastered)
-![Releases](https://img.shields.io/github/downloads/YuneSung/Ieris-Remastered/total)
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 
 # Aeris v1.25
 
