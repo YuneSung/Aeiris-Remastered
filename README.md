@@ -2,9 +2,9 @@
 
 ![Languages](https://img.shields.io/github/languages/count/YuneSung/Ieris-Remastered)
 ![Releases](https://img.shields.io/github/downloads/YuneSung/Ieris-Remastered/total)
-> **EN**: Ieris is an open-source powerful executable editor. It allows for editing of files in hex mode, binary and contains converters etc.\
-**ES**: Ieris es un potente editor ejecutable de código abierto. Permite la edición de archivos en modo hexadecimal, binario y contiene convertidores, etc.\
-**RU**: Ieris - мощный исполняемый редактор с открытым исходным кодом. Он позволяет редактировать файлы в шестнадцатеричном, двоичном формате и содержит конвертеры и т. Д.
+> **EN**: Aeiris is a powerful hex editor. It is a professional, free and light program designed for ease of life.\
+**ES**: Aeiris es un poderoso editor hexadecimal. Es un programa profesional, gratuito y ligero diseñado para facilitar la vida.\
+**RU**: Aeiris - мощный шестнадцатеричный редактор. Это профессиональная, бесплатная и легкая программа, созданная для облегчения жизни.
 
 # Ieris v1.25
 
