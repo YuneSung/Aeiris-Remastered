@@ -23,6 +23,7 @@
 **RU**: Aeiris - мощный шестнадцатеричный редактор. Это профессиональная, бесплатная и легкая программа.
 
 # Aeiris v1.63-5
+<h1>From build v1.50, we provide UnrealDev and UnityDevH support.</h1>
 
 ### Reproduction Information
 > Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -42,7 +43,6 @@ furnished to do so.
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 This is a simple program developed by me to bring you the best experience possible for editing executables.
-From build v1.50, we provide UnrealDev and UnityDevH support.
 
 ## Getting Started
 Download the source and build it using Visual Studio (or equivilant) or run the prebuild **dev** version in the /src/ folder.
