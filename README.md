@@ -4,7 +4,7 @@
 **ES**: Aeiris es un poderoso editor hexadecimal. Es un programa profesional, gratuito y ligero diseñado para facilitar la vida.\
 **RU**: Aeiris - мощный шестнадцатеричный редактор. Это профессиональная, бесплатная и легкая программа.
 
-![Aeiris](https://github.com/YuneSung/Ieris-Remastered/blob/master/pic/re_desk_banner.png?raw=true)
+![Aeiris](https://github.com/YuneSung/Ieris-Remastered/blob/master/pic/desk_banner.png?raw=true)
 
 ![Languages](https://img.shields.io/github/languages/count/YuneSung/Ieris-Remastered)
 ![Releases](https://img.shields.io/github/downloads/YuneSung/Ieris-Remastered/total)
