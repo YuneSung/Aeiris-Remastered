@@ -1,3 +1,5 @@
+[contributors-shield]: https://img.shields.io/github/contributors/Aeiris-Remastered?style=flat-square
+
 <br />
 <p align="left">
 
