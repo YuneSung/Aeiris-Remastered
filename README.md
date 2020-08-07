@@ -6,11 +6,27 @@
 
 ![Aeiris](https://github.com/YuneSung/Ieris-Remastered/blob/master/pic/desk_banner_fw.png?raw=true)
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![Apache License][license-shield]][https://github.com/YuneSung/Aeiris-Remastered/blob/master/LICENSE.md]
+<br />
+<p align="center">
+  <a href="https://github.com/YuneSung/Aeiris-Remastered/blob/master/">
+    <img src="pic/small_letter_logo.png?raw=true" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">Best-README-Template</h3>
+
+  <p align="center">
+    An awesome README template to jumpstart your projects!
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+  </p>
+</p>
 
 # Aeris v1.25
 
