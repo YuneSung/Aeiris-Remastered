@@ -32,9 +32,6 @@ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so.
 
-### 2020.2 Launch Banner, credits to Bebi Chic.
-![Laumch Banner](https://github.com/YuneSung/Aeiris-Remastered/blob/master/pic/re_launch_banner.png?raw=true)
-
 # Build Versions and Notes:
 **Current build: 1.25**
 ### Build version update notes: 
