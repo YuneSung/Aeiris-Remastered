@@ -81,14 +81,38 @@ namespace Aeiris
 
         private void MainForm_Load(object sender, EventArgs e)
         {
+            if (!File.Exists("log.txt"))
+            {
+                File.WriteAllText("log.txt", "");
+            }
+            textBox1.Text = File.ReadAllText("log.txt");
+            string settings = File.ReadAllText("log.txt");
+
+            if (settings.Contains("ec:gray")) { EditPage.ForeColor = Color.Gray; ec_gray.Checked = true; }
+            else if (settings.Contains("ec:black")) { EditPage.ForeColor = Color.Black; ec_black.Checked = true; }
+            else if (settings.Contains("ec:blue")) { EditPage.ForeColor = Color.Blue; ec_blue.Checked = true; }
+            else if (settings.Contains("ec:pink")) { EditPage.ForeColor = Color.Pink; ec_pink.Checked = true; }
+            else if (settings.Contains("ec:yellow")) { EditPage.ForeColor = Color.Yellow; ec_yellow.Checked = true; }
+
+            if (settings.Contains("ls:enabled")) { ls_enabled.Checked = true; }
+            else if (settings.Contains("ls:disabled")) { ls_disabled.Checked = true; }
+
+            if (settings.Contains("fpt:default")) { fpt_default.Checked = true; }
+            else if (settings.Contains("fpt:fcl")) { fpt_fcl.Checked = true; }
+            else if (settings.Contains("fpt:lua/j")) { fpt_luaoj.Checked = true; }
+            else if (settings.Contains("fpt:unitydevh")) { fpt_unitydevh.Checked = true; }
+            else if (settings.Contains("fpt:unrealdev")) { fpt_unrealdev.Checked = true; }
+
+            if (settings.Contains("dk:c++")) { dk_cpp.Checked = true; }
+            else if (settings.Contains("dk:c#")) { dk_cs.Checked = true; }
+
+
             findFm = new FindForm(hexBox1);
             replFm = new ReplaceForm(hexBox1);
             gotoFm = new GotoForm(hexBox1);
             convertFm = new ConverterForm();
             hexBox1.InsertActive = menuInsert.Checked;
             hexBox1.Select();
-
-            
         }
 
         private DynamicFileByteProvider provider = null;
@@ -519,15 +543,113 @@ MA 02110-1301, USA. Remastered and edited by ");
 
         private void button1_Click_2(object sender, EventArgs e)
         {
-            if(radioButton1.Checked == true) { _unreal = true; }
-            else if (radioButton2.Checked == true) { _FCL = true; }
-            else if (radioButton3.Checked == true) { _unity = true; }
-            else if (radioButton4.Checked == true) { _default = true; }
-
-            if (radioButton5.Checked == true) { _cpp = true; }
-            else if (hex.Checked == true) { _cs = true; }
-
             MessageBox.Show("Saved!");
+        }
+
+        string nl = Environment.NewLine;
+        private void button2_Click(object sender, EventArgs e)
+        {
+            File.WriteAllText("log.txt", "");
+            button2.ForeColor = Color.Green;
+            if (ec_gray.Checked == true) { File.AppendAllText("log.txt", "ec:gray" + nl); }
+            else if (ec_black.Checked == true) { File.AppendAllText("log.txt", "ec:black" + nl ); }
+            else if (ec_blue.Checked == true) { File.AppendAllText("log.txt", "ec:blue" + nl ); }
+            else if (ec_pink.Checked == true) { File.AppendAllText("log.txt", "ec:pink" + nl ); }
+            else if (ec_yellow.Checked == true) { File.AppendAllText("log.txt", "ec:yellow" + nl); }
+           
+            if (ls_disabled.Checked == true) { File.AppendAllText("log.txt", "ls:disabled" + nl); }
+            else if (ls_enabled.Checked == true) { File.AppendAllText("log.txt", "ls:enabled" + nl); }
+
+            if (fpt_default.Checked == true) { File.AppendAllText("log.txt", "fpt:default" + nl); }
+            else if (fpt_fcl.Checked == true) { File.AppendAllText("log.txt", "fpt:fcl" + nl); }
+            else if (fpt_luaoj.Checked == true) { File.AppendAllText("log.txt", "fpt:lua/j" + nl); }
+            else if (fpt_unitydevh.Checked == true) { File.AppendAllText("log.txt", "fpt:unitydevh" + nl); }
+            else if (fpt_unrealdev.Checked == true) { File.AppendAllText("log.txt", "fpt:unrealdev" + nl); }
+
+            if (dk_cpp.Checked == true) { File.AppendAllText("log.txt", "dk:c++" + nl); }
+            else if (dk_cs.Checked == true) { File.AppendAllText("log.txt", "dk:c#" + nl); }
+
+            MessageBox.Show("Saved! Please restart your program for the changes to take place!");
+        }
+
+        private void radioButton7_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton8_CheckedChanged(object sender, EventArgs e)
+        {
+          //MessageBox.Show("Warning: there might be problems with launching! Please also be aware that settings wont show as 'checked' but will still be saved.");
+        }
+
+        private void button1_Click_3(object sender, EventArgs e)
+        {
+            File.WriteAllText("log.txt", "");
+            textBox1.Text = "";
+            MessageBox.Show("Deleted!");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Application.Restart();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Stream myStream = null;
+            OpenFileDialog openFileDialog1 = new OpenFileDialog();
+
+            openFileDialog1.InitialDirectory = "c:\\";
+            openFileDialog1.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
+            openFileDialog1.FilterIndex = 2;
+            openFileDialog1.RestoreDirectory = true;
+
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                try
+                {
+                    if ((myStream = openFileDialog1.OpenFile()) != null)
+                    {
+                        using (myStream)
+                        {
+                           //
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error: Could not read file from disk. Original error: " + ex.Message);
+                }
+            }
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Stream myStream = null;
+            OpenFileDialog openFileDialog1 = new OpenFileDialog();
+
+            openFileDialog1.InitialDirectory = "c:\\";
+            openFileDialog1.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
+            openFileDialog1.FilterIndex = 2;
+            openFileDialog1.RestoreDirectory = true;
+
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                try
+                {
+                    if ((myStream = openFileDialog1.OpenFile()) != null)
+                    {
+                        using (myStream)
+                        {
+                            // Insert code to read the stream here.
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error: Could not read file from disk. Original error: " + ex.Message);
+                }
+            }
         }
     }
 }

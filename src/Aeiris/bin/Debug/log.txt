@@ -1,0 +1,4 @@
+ec:blue
+ls:disabled
+fpt:unitydevh
+dk:c++

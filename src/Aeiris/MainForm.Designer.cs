@@ -83,6 +83,7 @@ namespace Aeiris
             this.dragDropLbl = new System.Windows.Forms.Label();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.label16 = new System.Windows.Forms.Label();
             this.Interpretation = new System.Windows.Forms.TabPage();
             this.calcUTFnBinBox = new System.Windows.Forms.Button();
@@ -128,17 +129,33 @@ namespace Aeiris
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.label15 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.hex = new System.Windows.Forms.RadioButton();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
+            this.button3 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.fpt_luaoj = new System.Windows.Forms.RadioButton();
+            this.fpt_unrealdev = new System.Windows.Forms.RadioButton();
+            this.fpt_fcl = new System.Windows.Forms.RadioButton();
+            this.fpt_unitydevh = new System.Windows.Forms.RadioButton();
+            this.fpt_default = new System.Windows.Forms.RadioButton();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.dk_cs = new System.Windows.Forms.RadioButton();
+            this.dk_cpp = new System.Windows.Forms.RadioButton();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.ls_disabled = new System.Windows.Forms.RadioButton();
+            this.ls_enabled = new System.Windows.Forms.RadioButton();
+            this.label18 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.ec_black = new System.Windows.Forms.RadioButton();
+            this.ec_pink = new System.Windows.Forms.RadioButton();
+            this.ec_blue = new System.Windows.Forms.RadioButton();
+            this.ec_yellow = new System.Windows.Forms.RadioButton();
             this.label17 = new System.Windows.Forms.Label();
+            this.ec_gray = new System.Windows.Forms.RadioButton();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.tabPage1.SuspendLayout();
             this.Interpretation.SuspendLayout();
             this.StringsPage.SuspendLayout();
@@ -147,8 +164,9 @@ namespace Aeiris
             this.tabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.panel6.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // mainMenu1
@@ -395,7 +413,7 @@ namespace Aeiris
             this.dragDropLbl.ForeColor = System.Drawing.Color.Black;
             this.dragDropLbl.Location = new System.Drawing.Point(724, 33);
             this.dragDropLbl.Name = "dragDropLbl";
-            this.dragDropLbl.Size = new System.Drawing.Size(296, 385);
+            this.dragDropLbl.Size = new System.Drawing.Size(296, 527);
             this.dragDropLbl.TabIndex = 0;
             this.dragDropLbl.Text = "Drag and drop a file here";
             this.dragDropLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -412,6 +430,7 @@ namespace Aeiris
             // tabPage1
             // 
             this.tabPage1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tabPage1.Controls.Add(this.linkLabel1);
             this.tabPage1.Controls.Add(this.label16);
             this.tabPage1.Location = new System.Drawing.Point(4, 29);
             this.tabPage1.Name = "tabPage1";
@@ -420,6 +439,17 @@ namespace Aeiris
             this.tabPage1.TabIndex = 3;
             this.tabPage1.Text = "Unity Manager";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Location = new System.Drawing.Point(6, 20);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(42, 16);
+            this.linkLabel1.TabIndex = 1;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Import";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // label16
             // 
@@ -860,7 +890,7 @@ namespace Aeiris
             // EditPage
             // 
             this.EditPage.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EditPage.ForeColor = System.Drawing.Color.Violet;
+            this.EditPage.ForeColor = System.Drawing.Color.Gray;
             this.EditPage.Location = new System.Drawing.Point(4, 29);
             this.EditPage.Name = "EditPage";
             this.EditPage.Padding = new System.Windows.Forms.Padding(3);
@@ -890,6 +920,7 @@ namespace Aeiris
             // tabPage2
             // 
             this.tabPage2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tabPage2.Controls.Add(this.linkLabel2);
             this.tabPage2.Controls.Add(this.label15);
             this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Name = "tabPage2";
@@ -911,7 +942,23 @@ namespace Aeiris
             // tabPage3
             // 
             this.tabPage3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tabPage3.Controls.Add(this.button3);
+            this.tabPage3.Controls.Add(this.button1);
+            this.tabPage3.Controls.Add(this.textBox1);
+            this.tabPage3.Controls.Add(this.label21);
+            this.tabPage3.Controls.Add(this.label20);
+            this.tabPage3.Controls.Add(this.label19);
+            this.tabPage3.Controls.Add(this.panel5);
+            this.tabPage3.Controls.Add(this.panel6);
+            this.tabPage3.Controls.Add(this.panel4);
+            this.tabPage3.Controls.Add(this.label18);
+            this.tabPage3.Controls.Add(this.button2);
+            this.tabPage3.Controls.Add(this.ec_black);
+            this.tabPage3.Controls.Add(this.ec_pink);
+            this.tabPage3.Controls.Add(this.ec_blue);
+            this.tabPage3.Controls.Add(this.ec_yellow);
             this.tabPage3.Controls.Add(this.label17);
+            this.tabPage3.Controls.Add(this.ec_gray);
             this.tabPage3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.tabPage3.Location = new System.Drawing.Point(4, 29);
             this.tabPage3.Name = "tabPage3";
@@ -920,139 +967,309 @@ namespace Aeiris
             this.tabPage3.TabIndex = 5;
             this.tabPage3.Text = "Options++";
             // 
-            // radioButton1
+            // button3
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.ForeColor = System.Drawing.Color.Black;
-            this.radioButton1.Location = new System.Drawing.Point(4, 26);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(77, 19);
-            this.radioButton1.TabIndex = 2;
-            this.radioButton1.Text = "UnrealDev";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.ForeColor = System.Drawing.Color.Black;
-            this.radioButton2.Location = new System.Drawing.Point(4, 51);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(46, 19);
-            this.radioButton2.TabIndex = 3;
-            this.radioButton2.Text = "FCL";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton3
-            // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.ForeColor = System.Drawing.Color.Black;
-            this.radioButton3.Location = new System.Drawing.Point(4, 76);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(120, 19);
-            this.radioButton3.TabIndex = 4;
-            this.radioButton3.Text = "UnityDevH Default";
-            this.radioButton3.UseVisualStyleBackColor = true;
-            // 
-            // radioButton4
-            // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Checked = true;
-            this.radioButton4.ForeColor = System.Drawing.Color.Green;
-            this.radioButton4.Location = new System.Drawing.Point(4, 3);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(60, 19);
-            this.radioButton4.TabIndex = 5;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Default";
-            this.radioButton4.UseVisualStyleBackColor = true;
-            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
-            // 
-            // hex
-            // 
-            this.hex.AutoSize = true;
-            this.hex.ForeColor = System.Drawing.Color.Black;
-            this.hex.Location = new System.Drawing.Point(4, 30);
-            this.hex.Name = "hex";
-            this.hex.Size = new System.Drawing.Size(89, 19);
-            this.hex.TabIndex = 7;
-            this.hex.Text = "C# Dev Kit";
-            this.hex.UseVisualStyleBackColor = true;
-            // 
-            // radioButton5
-            // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Checked = true;
-            this.radioButton5.ForeColor = System.Drawing.Color.Black;
-            this.radioButton5.Location = new System.Drawing.Point(3, 8);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(93, 19);
-            this.radioButton5.TabIndex = 8;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "C++ Dev Kit";
-            this.radioButton5.UseVisualStyleBackColor = true;
+            this.button3.ForeColor = System.Drawing.Color.Black;
+            this.button3.Location = new System.Drawing.Point(263, 98);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(144, 25);
+            this.button3.TabIndex = 16;
+            this.button3.Text = "Quick Restart";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button1
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(4, 104);
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Location = new System.Drawing.Point(413, 98);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(283, 23);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "Save";
+            this.button1.Size = new System.Drawing.Size(282, 25);
+            this.button1.TabIndex = 15;
+            this.button1.Text = "Delete log";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_2);
+            this.button1.Click += new System.EventHandler(this.button1_Click_3);
             // 
-            // panel2
+            // textBox1
             // 
-            this.panel2.BackColor = System.Drawing.SystemColors.Control;
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.radioButton6);
-            this.panel2.Controls.Add(this.panel3);
-            this.panel2.Controls.Add(this.button1);
-            this.panel2.Controls.Add(this.radioButton1);
-            this.panel2.Controls.Add(this.radioButton2);
-            this.panel2.Controls.Add(this.radioButton3);
-            this.panel2.Controls.Add(this.radioButton4);
-            this.panel2.Location = new System.Drawing.Point(724, 428);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(296, 132);
-            this.panel2.TabIndex = 10;
+            this.textBox1.Location = new System.Drawing.Point(264, 21);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(431, 73);
+            this.textBox1.TabIndex = 12;
             // 
-            // radioButton6
+            // label21
             // 
-            this.radioButton6.AutoSize = true;
-            this.radioButton6.ForeColor = System.Drawing.Color.Black;
-            this.radioButton6.Location = new System.Drawing.Point(232, 3);
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(55, 19);
-            this.radioButton6.TabIndex = 9;
-            this.radioButton6.Text = "Lua/J";
-            this.radioButton6.UseVisualStyleBackColor = true;
+            this.label21.AutoSize = true;
+            this.label21.ForeColor = System.Drawing.Color.Black;
+            this.label21.Location = new System.Drawing.Point(261, 3);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(73, 16);
+            this.label21.TabIndex = 14;
+            this.label21.Text = "Current log";
             // 
-            // panel3
+            // label20
             // 
-            this.panel3.Controls.Add(this.hex);
-            this.panel3.Controls.Add(this.radioButton5);
-            this.panel3.Location = new System.Drawing.Point(185, 39);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(102, 56);
-            this.panel3.TabIndex = 10;
+            this.label20.AutoSize = true;
+            this.label20.ForeColor = System.Drawing.Color.Black;
+            this.label20.Location = new System.Drawing.Point(7, 388);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(48, 16);
+            this.label20.TabIndex = 13;
+            this.label20.Text = "Dev kit";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.ForeColor = System.Drawing.Color.Black;
+            this.label19.Location = new System.Drawing.Point(7, 239);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(110, 16);
+            this.label19.TabIndex = 12;
+            this.label19.Text = "File property type";
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.SystemColors.Control;
+            this.panel5.Controls.Add(this.fpt_luaoj);
+            this.panel5.Controls.Add(this.fpt_unrealdev);
+            this.panel5.Controls.Add(this.fpt_fcl);
+            this.panel5.Controls.Add(this.fpt_unitydevh);
+            this.panel5.Controls.Add(this.fpt_default);
+            this.panel5.Location = new System.Drawing.Point(11, 258);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(155, 128);
+            this.panel5.TabIndex = 11;
+            // 
+            // fpt_luaoj
+            // 
+            this.fpt_luaoj.AutoSize = true;
+            this.fpt_luaoj.ForeColor = System.Drawing.Color.Gray;
+            this.fpt_luaoj.Location = new System.Drawing.Point(4, 102);
+            this.fpt_luaoj.Name = "fpt_luaoj";
+            this.fpt_luaoj.Size = new System.Drawing.Size(60, 20);
+            this.fpt_luaoj.TabIndex = 9;
+            this.fpt_luaoj.Text = "Lua/J";
+            this.fpt_luaoj.UseVisualStyleBackColor = true;
+            // 
+            // fpt_unrealdev
+            // 
+            this.fpt_unrealdev.AutoSize = true;
+            this.fpt_unrealdev.ForeColor = System.Drawing.Color.Gray;
+            this.fpt_unrealdev.Location = new System.Drawing.Point(4, 26);
+            this.fpt_unrealdev.Name = "fpt_unrealdev";
+            this.fpt_unrealdev.Size = new System.Drawing.Size(84, 20);
+            this.fpt_unrealdev.TabIndex = 2;
+            this.fpt_unrealdev.Text = "UnrealDev";
+            this.fpt_unrealdev.UseVisualStyleBackColor = true;
+            // 
+            // fpt_fcl
+            // 
+            this.fpt_fcl.AutoSize = true;
+            this.fpt_fcl.ForeColor = System.Drawing.Color.Gray;
+            this.fpt_fcl.Location = new System.Drawing.Point(4, 51);
+            this.fpt_fcl.Name = "fpt_fcl";
+            this.fpt_fcl.Size = new System.Drawing.Size(49, 20);
+            this.fpt_fcl.TabIndex = 3;
+            this.fpt_fcl.Text = "FCL";
+            this.fpt_fcl.UseVisualStyleBackColor = true;
+            // 
+            // fpt_unitydevh
+            // 
+            this.fpt_unitydevh.AutoSize = true;
+            this.fpt_unitydevh.ForeColor = System.Drawing.Color.Gray;
+            this.fpt_unitydevh.Location = new System.Drawing.Point(4, 76);
+            this.fpt_unitydevh.Name = "fpt_unitydevh";
+            this.fpt_unitydevh.Size = new System.Drawing.Size(130, 20);
+            this.fpt_unitydevh.TabIndex = 4;
+            this.fpt_unitydevh.Text = "UnityDevH Default";
+            this.fpt_unitydevh.UseVisualStyleBackColor = true;
+            // 
+            // fpt_default
+            // 
+            this.fpt_default.AutoSize = true;
+            this.fpt_default.Checked = true;
+            this.fpt_default.ForeColor = System.Drawing.Color.Gray;
+            this.fpt_default.Location = new System.Drawing.Point(4, 3);
+            this.fpt_default.Name = "fpt_default";
+            this.fpt_default.Size = new System.Drawing.Size(65, 20);
+            this.fpt_default.TabIndex = 5;
+            this.fpt_default.TabStop = true;
+            this.fpt_default.Text = "Default";
+            this.fpt_default.UseVisualStyleBackColor = true;
+            // 
+            // panel6
+            // 
+            this.panel6.Controls.Add(this.dk_cs);
+            this.panel6.Controls.Add(this.dk_cpp);
+            this.panel6.Location = new System.Drawing.Point(11, 407);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(102, 56);
+            this.panel6.TabIndex = 10;
+            // 
+            // dk_cs
+            // 
+            this.dk_cs.AutoSize = true;
+            this.dk_cs.ForeColor = System.Drawing.Color.Gray;
+            this.dk_cs.Location = new System.Drawing.Point(4, 30);
+            this.dk_cs.Name = "dk_cs";
+            this.dk_cs.Size = new System.Drawing.Size(94, 20);
+            this.dk_cs.TabIndex = 7;
+            this.dk_cs.Text = "C# Dev Kit";
+            this.dk_cs.UseVisualStyleBackColor = true;
+            // 
+            // dk_cpp
+            // 
+            this.dk_cpp.AutoSize = true;
+            this.dk_cpp.Checked = true;
+            this.dk_cpp.ForeColor = System.Drawing.Color.Gray;
+            this.dk_cpp.Location = new System.Drawing.Point(3, 8);
+            this.dk_cpp.Name = "dk_cpp";
+            this.dk_cpp.Size = new System.Drawing.Size(98, 20);
+            this.dk_cpp.TabIndex = 8;
+            this.dk_cpp.TabStop = true;
+            this.dk_cpp.Text = "C++ Dev Kit";
+            this.dk_cpp.UseVisualStyleBackColor = true;
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.ls_disabled);
+            this.panel4.Controls.Add(this.ls_enabled);
+            this.panel4.Location = new System.Drawing.Point(10, 178);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(144, 57);
+            this.panel4.TabIndex = 9;
+            // 
+            // ls_disabled
+            // 
+            this.ls_disabled.AutoSize = true;
+            this.ls_disabled.ForeColor = System.Drawing.Color.Gray;
+            this.ls_disabled.Location = new System.Drawing.Point(0, 31);
+            this.ls_disabled.Name = "ls_disabled";
+            this.ls_disabled.Size = new System.Drawing.Size(75, 20);
+            this.ls_disabled.TabIndex = 11;
+            this.ls_disabled.Text = "Disabled";
+            this.ls_disabled.UseVisualStyleBackColor = true;
+            this.ls_disabled.CheckedChanged += new System.EventHandler(this.radioButton8_CheckedChanged);
+            // 
+            // ls_enabled
+            // 
+            this.ls_enabled.AutoSize = true;
+            this.ls_enabled.Checked = true;
+            this.ls_enabled.ForeColor = System.Drawing.Color.Gray;
+            this.ls_enabled.Location = new System.Drawing.Point(-1, 5);
+            this.ls_enabled.Name = "ls_enabled";
+            this.ls_enabled.Size = new System.Drawing.Size(72, 20);
+            this.ls_enabled.TabIndex = 10;
+            this.ls_enabled.TabStop = true;
+            this.ls_enabled.Text = "Enabled";
+            this.ls_enabled.UseVisualStyleBackColor = true;
+            this.ls_enabled.CheckedChanged += new System.EventHandler(this.radioButton7_CheckedChanged);
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.ForeColor = System.Drawing.Color.Black;
+            this.label18.Location = new System.Drawing.Point(6, 159);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(80, 16);
+            this.label18.TabIndex = 8;
+            this.label18.Text = "Load screen";
+            // 
+            // button2
+            // 
+            this.button2.ForeColor = System.Drawing.Color.Red;
+            this.button2.Location = new System.Drawing.Point(10, 486);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(685, 29);
+            this.button2.TabIndex = 7;
+            this.button2.Text = "Save";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // ec_black
+            // 
+            this.ec_black.AutoSize = true;
+            this.ec_black.ForeColor = System.Drawing.Color.Gray;
+            this.ec_black.Location = new System.Drawing.Point(9, 126);
+            this.ec_black.Name = "ec_black";
+            this.ec_black.Size = new System.Drawing.Size(56, 20);
+            this.ec_black.TabIndex = 6;
+            this.ec_black.Text = "Black";
+            this.ec_black.UseVisualStyleBackColor = true;
+            // 
+            // ec_pink
+            // 
+            this.ec_pink.AutoSize = true;
+            this.ec_pink.ForeColor = System.Drawing.Color.Gray;
+            this.ec_pink.Location = new System.Drawing.Point(10, 100);
+            this.ec_pink.Name = "ec_pink";
+            this.ec_pink.Size = new System.Drawing.Size(50, 20);
+            this.ec_pink.TabIndex = 5;
+            this.ec_pink.Text = "Pink";
+            this.ec_pink.UseVisualStyleBackColor = true;
+            // 
+            // ec_blue
+            // 
+            this.ec_blue.AutoSize = true;
+            this.ec_blue.ForeColor = System.Drawing.Color.Gray;
+            this.ec_blue.Location = new System.Drawing.Point(9, 74);
+            this.ec_blue.Name = "ec_blue";
+            this.ec_blue.Size = new System.Drawing.Size(51, 20);
+            this.ec_blue.TabIndex = 4;
+            this.ec_blue.Text = "Blue";
+            this.ec_blue.UseVisualStyleBackColor = true;
+            // 
+            // ec_yellow
+            // 
+            this.ec_yellow.AutoSize = true;
+            this.ec_yellow.ForeColor = System.Drawing.Color.Gray;
+            this.ec_yellow.Location = new System.Drawing.Point(9, 48);
+            this.ec_yellow.Name = "ec_yellow";
+            this.ec_yellow.Size = new System.Drawing.Size(63, 20);
+            this.ec_yellow.TabIndex = 3;
+            this.ec_yellow.Text = "Yellow";
+            this.ec_yellow.UseVisualStyleBackColor = true;
             // 
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(2, 3);
+            this.label17.ForeColor = System.Drawing.Color.Black;
+            this.label17.Location = new System.Drawing.Point(6, 3);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(137, 16);
-            this.label17.TabIndex = 0;
-            this.label17.Text = "Options++ Not Found!";
+            this.label17.Size = new System.Drawing.Size(81, 16);
+            this.label17.TabIndex = 2;
+            this.label17.Text = "Editor colour";
+            // 
+            // ec_gray
+            // 
+            this.ec_gray.AutoSize = true;
+            this.ec_gray.Checked = true;
+            this.ec_gray.ForeColor = System.Drawing.Color.Gray;
+            this.ec_gray.Location = new System.Drawing.Point(9, 22);
+            this.ec_gray.Name = "ec_gray";
+            this.ec_gray.Size = new System.Drawing.Size(52, 20);
+            this.ec_gray.TabIndex = 1;
+            this.ec_gray.TabStop = true;
+            this.ec_gray.Text = "Gray";
+            this.ec_gray.UseVisualStyleBackColor = true;
+            // 
+            // linkLabel2
+            // 
+            this.linkLabel2.AutoSize = true;
+            this.linkLabel2.Location = new System.Drawing.Point(6, 20);
+            this.linkLabel2.Name = "linkLabel2";
+            this.linkLabel2.Size = new System.Drawing.Size(42, 16);
+            this.linkLabel2.TabIndex = 1;
+            this.linkLabel2.TabStop = true;
+            this.linkLabel2.Text = "Import";
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1032, 573);
-            this.Controls.Add(this.panel2);
             this.Controls.Add(this.dragDropLbl);
             this.Controls.Add(this.tabControl1);
             this.Font = new System.Drawing.Font("Microsoft Yi Baiti", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1080,10 +1297,12 @@ namespace Aeiris
             this.tabPage2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1169,18 +1388,35 @@ namespace Aeiris
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.RadioButton hex;
-        private System.Windows.Forms.RadioButton radioButton5;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.RadioButton radioButton6;
         private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel panel6;
+        public System.Windows.Forms.RadioButton ec_black;
+        public System.Windows.Forms.RadioButton ec_pink;
+        public System.Windows.Forms.RadioButton ec_blue;
+        public System.Windows.Forms.RadioButton ec_yellow;
+        public System.Windows.Forms.RadioButton ec_gray;
+        public System.Windows.Forms.RadioButton ls_enabled;
+        public System.Windows.Forms.RadioButton ls_disabled;
+        public System.Windows.Forms.RadioButton fpt_luaoj;
+        public System.Windows.Forms.RadioButton fpt_unrealdev;
+        public System.Windows.Forms.RadioButton fpt_fcl;
+        public System.Windows.Forms.RadioButton fpt_unitydevh;
+        public System.Windows.Forms.RadioButton fpt_default;
+        public System.Windows.Forms.RadioButton dk_cs;
+        public System.Windows.Forms.RadioButton dk_cpp;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.LinkLabel linkLabel2;
     }
 }
 
