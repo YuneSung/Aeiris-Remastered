@@ -42,26 +42,30 @@ namespace DotHex
 
         private async void Launch_Load(object sender, EventArgs e)
         {
-            string settings = File.ReadAllText("log.txt");
-            if (settings.Contains("ls:disabled"))
+            if (File.Exists("log.txt"))
             {
-                this.Opacity = 0;
-                this.Hide();
-                var form2 = new MainForm();
-                form2.Closed += (s, args) => this.Close();
-                form2.Show();
-            }
-            else if (settings.Contains("ls:enabled"))
-            {
-                this.TopMost = true;
-                await launchdelay();
-                this.Hide();
-                var form2 = new MainForm();
-                form2.Closed += (s, args) => this.Close();
-                form2.Show();
+                string settings = File.ReadAllText("log.txt");
+                if (settings.Contains("ls:disabled"))
+                {
+                    this.Opacity = 0;
+                    this.Hide();
+                    var form2 = new MainForm();
+                    form2.Closed += (s, args) => this.Close();
+                    form2.Show();
+                }
+                else if (settings.Contains("ls:enabled"))
+                {
+                    this.TopMost = true;
+                    await launchdelay();
+                    this.Hide();
+                    var form2 = new MainForm();
+                    form2.Closed += (s, args) => this.Close();
+                    form2.Show();
+                }
             }
             else
             {
+                File.WriteAllText("log.txt", "");
                 this.TopMost = true;
                 await launchdelay();
                 this.Hide();
