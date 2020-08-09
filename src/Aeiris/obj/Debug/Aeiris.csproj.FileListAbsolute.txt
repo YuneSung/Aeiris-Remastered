@@ -57,3 +57,5 @@ C:\Users\jbieg\Documents\GitHub\Aeiris-Remastered\src\Aeiris\bin\Debug\Aeiris.de
 C:\Users\jbieg\Documents\GitHub\Aeiris-Remastered\src\Aeiris\bin\Debug\Aeiris.dev.pdb
 C:\Users\jbieg\Documents\GitHub\Aeiris-Remastered\src\Aeiris\obj\Debug\Aeiris.dev.exe
 C:\Users\jbieg\Documents\GitHub\Aeiris-Remastered\src\Aeiris\obj\Debug\Aeiris.dev.pdb
+C:\Users\jbieg\Documents\GitHub\Aeiris-Remastered\src\Aeiris\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jbieg\Documents\GitHub\Aeiris-Remastered\src\Aeiris\obj\Debug\Aeiris.csproj.CopyComplete

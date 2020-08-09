@@ -127,6 +127,8 @@ namespace Aeiris
             this.EditPage = new System.Windows.Forms.TabPage();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.label15 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.button3 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -154,8 +156,6 @@ namespace Aeiris
             this.ec_yellow = new System.Windows.Forms.RadioButton();
             this.label17 = new System.Windows.Forms.Label();
             this.ec_gray = new System.Windows.Forms.RadioButton();
-            this.label15 = new System.Windows.Forms.Label();
-            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.tabPage1.SuspendLayout();
             this.Interpretation.SuspendLayout();
             this.StringsPage.SuspendLayout();
@@ -411,9 +411,9 @@ namespace Aeiris
             this.dragDropLbl.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.dragDropLbl.Font = new System.Drawing.Font("Microsoft Yi Baiti", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dragDropLbl.ForeColor = System.Drawing.Color.Black;
-            this.dragDropLbl.Location = new System.Drawing.Point(866, 33);
+            this.dragDropLbl.Location = new System.Drawing.Point(724, 33);
             this.dragDropLbl.Name = "dragDropLbl";
-            this.dragDropLbl.Size = new System.Drawing.Size(154, 527);
+            this.dragDropLbl.Size = new System.Drawing.Size(296, 527);
             this.dragDropLbl.TabIndex = 0;
             this.dragDropLbl.Text = "Drag and drop a file here";
             this.dragDropLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -434,7 +434,7 @@ namespace Aeiris
             this.tabPage1.Location = new System.Drawing.Point(4, 29);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(845, 523);
+            this.tabPage1.Size = new System.Drawing.Size(703, 523);
             this.tabPage1.TabIndex = 3;
             this.tabPage1.Text = "Unity Manager";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -492,7 +492,7 @@ namespace Aeiris
             this.Interpretation.Location = new System.Drawing.Point(4, 29);
             this.Interpretation.Name = "Interpretation";
             this.Interpretation.Padding = new System.Windows.Forms.Padding(3);
-            this.Interpretation.Size = new System.Drawing.Size(845, 523);
+            this.Interpretation.Size = new System.Drawing.Size(703, 523);
             this.Interpretation.TabIndex = 2;
             this.Interpretation.Text = "Interpretation";
             this.Interpretation.UseVisualStyleBackColor = true;
@@ -766,7 +766,7 @@ namespace Aeiris
             this.StringsPage.Location = new System.Drawing.Point(4, 29);
             this.StringsPage.Name = "StringsPage";
             this.StringsPage.Padding = new System.Windows.Forms.Padding(3);
-            this.StringsPage.Size = new System.Drawing.Size(845, 523);
+            this.StringsPage.Size = new System.Drawing.Size(703, 523);
             this.StringsPage.TabIndex = 1;
             this.StringsPage.Text = "Strings";
             this.StringsPage.UseVisualStyleBackColor = true;
@@ -807,7 +807,7 @@ namespace Aeiris
             this.panel1.Font = new System.Drawing.Font("Microsoft Yi Baiti", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(839, 59);
+            this.panel1.Size = new System.Drawing.Size(697, 59);
             this.panel1.TabIndex = 11;
             // 
             // searchStrBtn
@@ -921,10 +921,30 @@ namespace Aeiris
             this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(845, 523);
+            this.tabPage2.Size = new System.Drawing.Size(703, 523);
             this.tabPage2.TabIndex = 4;
             this.tabPage2.Text = "Unreal Manager";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // linkLabel2
+            // 
+            this.linkLabel2.AutoSize = true;
+            this.linkLabel2.Location = new System.Drawing.Point(6, 20);
+            this.linkLabel2.Name = "linkLabel2";
+            this.linkLabel2.Size = new System.Drawing.Size(42, 16);
+            this.linkLabel2.TabIndex = 1;
+            this.linkLabel2.TabStop = true;
+            this.linkLabel2.Text = "Import";
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(6, 4);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(173, 16);
+            this.label15.TabIndex = 0;
+            this.label15.Text = "Unreal Manager Not Found!";
             // 
             // tabPage3
             // 
@@ -949,7 +969,7 @@ namespace Aeiris
             this.tabPage3.Location = new System.Drawing.Point(4, 29);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3, 3, 100, 3);
-            this.tabPage3.Size = new System.Drawing.Size(845, 523);
+            this.tabPage3.Size = new System.Drawing.Size(703, 523);
             this.tabPage3.TabIndex = 5;
             this.tabPage3.Text = "Options++";
             // 
@@ -1241,26 +1261,6 @@ namespace Aeiris
             this.ec_gray.TabStop = true;
             this.ec_gray.Text = "Gray";
             this.ec_gray.UseVisualStyleBackColor = true;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(6, 4);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(173, 16);
-            this.label15.TabIndex = 0;
-            this.label15.Text = "Unreal Manager Not Found!";
-            // 
-            // linkLabel2
-            // 
-            this.linkLabel2.AutoSize = true;
-            this.linkLabel2.Location = new System.Drawing.Point(6, 20);
-            this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(42, 16);
-            this.linkLabel2.TabIndex = 1;
-            this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "Import";
-            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
             // MainForm
             // 

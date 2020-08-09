@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "mQWMC+CDICT9HcUvA8NjVFv7LROo6Ygw7FvgSnd35ZMpND2Lxh/dB3DcudpRVFx4cFzlhm2uOO8ObGqDeRGMsQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jbieg\\Documents\\GitHub\\Aeiris-Remastered\\src\\Aeiris\\Aeiris.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jbieg\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
