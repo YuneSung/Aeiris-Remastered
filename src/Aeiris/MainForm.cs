@@ -651,5 +651,15 @@ MA 02110-1301, USA. Remastered and edited by ");
                 }
             }
         }
+
+        private void linkLabel2_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            MessageBox.Show("#language: <lang> @include: <code>");
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Sent!");
+        }
     }
 }

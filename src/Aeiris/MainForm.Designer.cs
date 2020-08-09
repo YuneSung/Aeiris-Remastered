@@ -127,7 +127,6 @@ namespace Aeiris
             this.EditPage = new System.Windows.Forms.TabPage();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.label15 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.button3 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -155,6 +154,7 @@ namespace Aeiris
             this.ec_yellow = new System.Windows.Forms.RadioButton();
             this.label17 = new System.Windows.Forms.Label();
             this.ec_gray = new System.Windows.Forms.RadioButton();
+            this.label15 = new System.Windows.Forms.Label();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.tabPage1.SuspendLayout();
             this.Interpretation.SuspendLayout();
@@ -411,9 +411,9 @@ namespace Aeiris
             this.dragDropLbl.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.dragDropLbl.Font = new System.Drawing.Font("Microsoft Yi Baiti", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dragDropLbl.ForeColor = System.Drawing.Color.Black;
-            this.dragDropLbl.Location = new System.Drawing.Point(724, 33);
+            this.dragDropLbl.Location = new System.Drawing.Point(866, 33);
             this.dragDropLbl.Name = "dragDropLbl";
-            this.dragDropLbl.Size = new System.Drawing.Size(296, 527);
+            this.dragDropLbl.Size = new System.Drawing.Size(154, 527);
             this.dragDropLbl.TabIndex = 0;
             this.dragDropLbl.Text = "Drag and drop a file here";
             this.dragDropLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -429,13 +429,12 @@ namespace Aeiris
             // 
             // tabPage1
             // 
-            this.tabPage1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tabPage1.Controls.Add(this.linkLabel1);
             this.tabPage1.Controls.Add(this.label16);
             this.tabPage1.Location = new System.Drawing.Point(4, 29);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(703, 523);
+            this.tabPage1.Size = new System.Drawing.Size(845, 523);
             this.tabPage1.TabIndex = 3;
             this.tabPage1.Text = "Unity Manager";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -462,7 +461,6 @@ namespace Aeiris
             // 
             // Interpretation
             // 
-            this.Interpretation.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Interpretation.Controls.Add(this.calcUTFnBinBox);
             this.Interpretation.Controls.Add(this.label14);
             this.Interpretation.Controls.Add(this.unicodeBox);
@@ -494,7 +492,7 @@ namespace Aeiris
             this.Interpretation.Location = new System.Drawing.Point(4, 29);
             this.Interpretation.Name = "Interpretation";
             this.Interpretation.Padding = new System.Windows.Forms.Padding(3);
-            this.Interpretation.Size = new System.Drawing.Size(703, 523);
+            this.Interpretation.Size = new System.Drawing.Size(845, 523);
             this.Interpretation.TabIndex = 2;
             this.Interpretation.Text = "Interpretation";
             this.Interpretation.UseVisualStyleBackColor = true;
@@ -504,7 +502,7 @@ namespace Aeiris
             // 
             this.calcUTFnBinBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.calcUTFnBinBox.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.calcUTFnBinBox.Location = new System.Drawing.Point(299, 450);
+            this.calcUTFnBinBox.Location = new System.Drawing.Point(299, 452);
             this.calcUTFnBinBox.Name = "calcUTFnBinBox";
             this.calcUTFnBinBox.Size = new System.Drawing.Size(395, 71);
             this.calcUTFnBinBox.TabIndex = 27;
@@ -530,7 +528,7 @@ namespace Aeiris
             this.unicodeBox.Multiline = true;
             this.unicodeBox.Name = "unicodeBox";
             this.unicodeBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.unicodeBox.Size = new System.Drawing.Size(277, 243);
+            this.unicodeBox.Size = new System.Drawing.Size(277, 245);
             this.unicodeBox.TabIndex = 25;
             // 
             // f64Box
@@ -558,7 +556,7 @@ namespace Aeiris
             this.binBox.Multiline = true;
             this.binBox.Name = "binBox";
             this.binBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.binBox.Size = new System.Drawing.Size(395, 306);
+            this.binBox.Size = new System.Drawing.Size(395, 308);
             this.binBox.TabIndex = 19;
             // 
             // u64Box
@@ -730,7 +728,7 @@ namespace Aeiris
             this.littleEndianBox.AutoSize = true;
             this.littleEndianBox.Checked = true;
             this.littleEndianBox.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.littleEndianBox.Location = new System.Drawing.Point(10, 468);
+            this.littleEndianBox.Location = new System.Drawing.Point(10, 470);
             this.littleEndianBox.Name = "littleEndianBox";
             this.littleEndianBox.Size = new System.Drawing.Size(99, 20);
             this.littleEndianBox.TabIndex = 3;
@@ -744,7 +742,7 @@ namespace Aeiris
             | System.Windows.Forms.AnchorStyles.Right)));
             this.selectedLbl.Location = new System.Drawing.Point(134, 451);
             this.selectedLbl.Name = "selectedLbl";
-            this.selectedLbl.Size = new System.Drawing.Size(144, 21);
+            this.selectedLbl.Size = new System.Drawing.Size(146, 21);
             this.selectedLbl.TabIndex = 1;
             this.selectedLbl.Text = "-";
             // 
@@ -768,7 +766,7 @@ namespace Aeiris
             this.StringsPage.Location = new System.Drawing.Point(4, 29);
             this.StringsPage.Name = "StringsPage";
             this.StringsPage.Padding = new System.Windows.Forms.Padding(3);
-            this.StringsPage.Size = new System.Drawing.Size(703, 523);
+            this.StringsPage.Size = new System.Drawing.Size(845, 523);
             this.StringsPage.TabIndex = 1;
             this.StringsPage.Text = "Strings";
             this.StringsPage.UseVisualStyleBackColor = true;
@@ -787,13 +785,13 @@ namespace Aeiris
             // 
             // stringsList
             // 
-            this.stringsList.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.stringsList.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.stringsList.Font = new System.Drawing.Font("Microsoft Yi Baiti", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.stringsList.FormattingEnabled = true;
             this.stringsList.ItemHeight = 19;
             this.stringsList.Location = new System.Drawing.Point(3, 40);
             this.stringsList.Name = "stringsList";
-            this.stringsList.Size = new System.Drawing.Size(698, 439);
+            this.stringsList.Size = new System.Drawing.Size(698, 437);
             this.stringsList.TabIndex = 6;
             this.stringsList.SelectedIndexChanged += new System.EventHandler(this.stringsList_SelectedIndexChanged);
             this.stringsList.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.stringsList_MouseDoubleClick);
@@ -801,7 +799,6 @@ namespace Aeiris
             // panel1
             // 
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.searchStrBtn);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.strMinimumBox);
@@ -810,7 +807,7 @@ namespace Aeiris
             this.panel1.Font = new System.Drawing.Font("Microsoft Yi Baiti", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(697, 59);
+            this.panel1.Size = new System.Drawing.Size(839, 59);
             this.panel1.TabIndex = 11;
             // 
             // searchStrBtn
@@ -919,29 +916,18 @@ namespace Aeiris
             // 
             // tabPage2
             // 
-            this.tabPage2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tabPage2.Controls.Add(this.linkLabel2);
             this.tabPage2.Controls.Add(this.label15);
             this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(703, 523);
+            this.tabPage2.Size = new System.Drawing.Size(845, 523);
             this.tabPage2.TabIndex = 4;
             this.tabPage2.Text = "Unreal Manager";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(6, 4);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(173, 16);
-            this.label15.TabIndex = 0;
-            this.label15.Text = "Unreal Manager Not Found!";
-            // 
             // tabPage3
             // 
-            this.tabPage3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tabPage3.Controls.Add(this.button3);
             this.tabPage3.Controls.Add(this.button1);
             this.tabPage3.Controls.Add(this.textBox1);
@@ -963,7 +949,7 @@ namespace Aeiris
             this.tabPage3.Location = new System.Drawing.Point(4, 29);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3, 3, 100, 3);
-            this.tabPage3.Size = new System.Drawing.Size(703, 523);
+            this.tabPage3.Size = new System.Drawing.Size(845, 523);
             this.tabPage3.TabIndex = 5;
             this.tabPage3.Text = "Options++";
             // 
@@ -1143,6 +1129,7 @@ namespace Aeiris
             // ls_disabled
             // 
             this.ls_disabled.AutoSize = true;
+            this.ls_disabled.Enabled = false;
             this.ls_disabled.ForeColor = System.Drawing.Color.Gray;
             this.ls_disabled.Location = new System.Drawing.Point(0, 31);
             this.ls_disabled.Name = "ls_disabled";
@@ -1156,6 +1143,7 @@ namespace Aeiris
             // 
             this.ls_enabled.AutoSize = true;
             this.ls_enabled.Checked = true;
+            this.ls_enabled.Enabled = false;
             this.ls_enabled.ForeColor = System.Drawing.Color.Gray;
             this.ls_enabled.Location = new System.Drawing.Point(-1, 5);
             this.ls_enabled.Name = "ls_enabled";
@@ -1254,6 +1242,15 @@ namespace Aeiris
             this.ec_gray.Text = "Gray";
             this.ec_gray.UseVisualStyleBackColor = true;
             // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(6, 4);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(173, 16);
+            this.label15.TabIndex = 0;
+            this.label15.Text = "Unreal Manager Not Found!";
+            // 
             // linkLabel2
             // 
             this.linkLabel2.AutoSize = true;
@@ -1281,6 +1278,7 @@ namespace Aeiris
             this.MinimumSize = new System.Drawing.Size(639, 416);
             this.Name = "MainForm";
             this.Opacity = 0.99D;
+            this.ShowIcon = false;
             this.Text = "Aeiris: Remastered";
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.tabPage1.ResumeLayout(false);
@@ -1386,7 +1384,6 @@ namespace Aeiris
         private System.Windows.Forms.TabPage EditPage;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.Button button2;
@@ -1417,6 +1414,7 @@ namespace Aeiris
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.LinkLabel linkLabel2;
+        private System.Windows.Forms.Label label15;
     }
 }
 
