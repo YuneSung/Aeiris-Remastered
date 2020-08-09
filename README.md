@@ -35,10 +35,10 @@ furnished to do so.
 
 # Build Versions and Notes:
 ### Build version update notes: 
-  - Fixed a lot of bugs
-  - Added Lua,Unity and Unreal support
+  - Bug fixes
+  - Added Lua/J support
   - Added C++/C# choice
-  - Added Options++ (unfinished)
+  - Finished 'options++'
   
 <!-- ABOUT THE PROJECT -->
 ## About The Project
