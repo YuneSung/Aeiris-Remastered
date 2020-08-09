@@ -42,12 +42,10 @@ furnished to do so.
   
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This is a simple program developed by me to bring you the best experience possible for editing executables.
+This is a simple program to bring you the best experience possible for editing executables!
 
 ## Getting Started
-Download the source and build it using Visual Studio (or equivilant) or run the prebuild **dev** version in the /src/ folder.
-
-View past notes: https://pastebin.com/RSiWsHx4
+Download the source and build it using Visual Studio (or equivilant) or run the prebuild **dev** version, or the prebuilt **x64**/**x32** versions in the /src/ folder.
 
 ### Support:
 - Windows 7,8,10 tested on OS19041.423
