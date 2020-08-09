@@ -51,4 +51,4 @@ Download the source and build it using Visual Studio (or equivilant) or run the 
 - Windows 7,8,10 tested on OS19041.423
 
 ### Building:
-`https://github.com/YuneSung/Ieris-Remastered.git`
+`https://github.com/YuneSung/Aeiris-Remastered.git`
